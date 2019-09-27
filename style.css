@@ -1,0 +1,9 @@
+.container {
+    width: vw;
+    height: vh;
+}
+
+#gameCanvas{
+    margin: auto;
+    display: block;
+}
