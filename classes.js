@@ -14,14 +14,6 @@ class playerSquare{
           }
     }
 
-    setX(dist){
-        this.x = this.x+dist;
-    }
-
-    setY(dist){
-        this.y = this.y+dist;
-    }
-
     getColor(){
         return 'blue';
     }

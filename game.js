@@ -45,11 +45,10 @@ class Game {
     }
 
     tick(){
-        this.draw();
         this.update();
+        this.draw();
         requestAnimationFrame(this.tick());
     }
-
 }
 
 let game = new Game('gameCanvas');
